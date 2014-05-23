@@ -1,8 +1,11 @@
 [core]
 	excludesfile = /home/bamorim/.gitignore_global
 	autocrlf = input
+	editor = vim
 [user]
 	email = contato@bamorim.com
 	name = Bernardo Amorim
 [push]
 	default = simple
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
