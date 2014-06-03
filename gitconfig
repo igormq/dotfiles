@@ -1,8 +1,8 @@
 [core]
-	excludesfile = /home/bamorim/.gitignore_global
+	excludesfile = /home/igormq/.gitignore_global
 	autocrlf = input
 [user]
-	email = contato@bamorim.com
-	name = Bernardo Amorim
+	email = igormq@poli.ufrj.br
+	name = Igor Macedo Quintanilha
 [push]
 	default = simple

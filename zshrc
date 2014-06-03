@@ -40,7 +40,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git z rails zeus)
+plugins=(git z rails zeus git-extras)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -48,10 +48,13 @@ source $ZSH/oh-my-zsh.sh
 # eval "$(direnv hook $0)"
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/home/bamorim/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/home/igormq/direnv/go/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+###Added Activator support
+export PATH=$PATH:~/.activator-1.2.1-minimal
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
