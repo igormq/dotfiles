@@ -56,6 +56,12 @@ export PATH="/usr/local/heroku/bin:$PATH"
 ###Added Activator support
 export PATH=$PATH:~/.activator-1.2.1-minimal
 
+###Added SDK
+export PATH=$PATH:/opt/adt-bundle-linux-x86_64-20140321/sdk/platform-tools
+
+###Added NDK
+export PATH=$PATH:/opt/ndk
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 eval "$(direnv hook zsh)"
